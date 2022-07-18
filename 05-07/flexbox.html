@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .main{
+            display: flex;
+            border: 5px solid black;
+            justify-content: space-between;
+            padding: 1.5%;
+            height: 20vh;
+            
+        }
+        .a,.b,.c,.d,.e{
+            border: 2px solid saddlebrown;
+            flex-wrap: wrap;
+            width: 60%;
+            margin-right: 10px;
+            
+        }
+        .a,.b,.c,.d,.e,a img{
+           width: 30%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding-left: 6%;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="img not shown"></a>
+        </div>
+        <div class="b">
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="img not shown"></a>
+            
+        </div>
+        <div class="c">
+            <a href="https://www.snapchat.com/" target="_blank"><img src="snapchat.png" alt="img not shown"></a>
+        </div>
+        <div class="d">
+            <a href="https://www.twitter.com/" target="_blank"><img src="twitter.png" alt="img not shown"></a>
+        </div>
+        <div class="e">
+            <a href="https://www.linkidin.com/" target="_blank"><img src="linkedin.png" alt="img not shown"></a>
+        </div>
+    </div>
+</body>
+</html>

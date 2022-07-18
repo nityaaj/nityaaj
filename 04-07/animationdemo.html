@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animaton</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            font-size: 20px;
+            color:  white;
+            background-color: black;
+            margin: auto;
+            transition: 2s ease-in;
+            text-align: center;
+            margin-bottom: 10px;
+            }
+        .first:hover{
+            transform: translate(100px,100px);
+            background-color: rgb(241, 4, 0);
+        }    
+       .second:hover{
+        transform: rotate(360deg);
+       }
+       .third:hover {
+        transform: rotate3d(1,1,0,45deg) ;
+       }
+       .fourth:hover{
+        transform: skew(30deg);
+        background-color: azure;
+        
+       }
+       .five:hover{
+        width: 300px;
+        height: 50px;
+
+       }
+       .six:hover{
+        opacity: .5;
+       }
+      .seven:hover {
+            background: rgba(128, 128, 0, 0.5);
+        }
+
+        .eight:hover {
+            box-shadow: 0px 0px 30px Blue;
+        }
+
+        .nine:hover {
+            text-shadow: 3px 3px 3px yellow;
+        }
+
+        .ten:hover {
+            border-radius: 50%;
+        }
+
+       .eleven {
+            overflow: auto;
+        }
+       
+       
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        translate
+    </div>
+    <div class="second">
+        rotate
+    </div>
+    <div class="third">
+        rotate 3d
+    </div>
+    
+    <div class="fourth">
+        skew
+    </div>
+      <div class="five">
+        scale
+    </div>
+
+    <div class="six">
+        opacity
+    </div>
+
+    <div class="seven">RGBA</div>
+    <div class="eight">Box-Shadow</div>
+    <div class="nine">Text-Shadow</div>
+    <div class="ten">Border Radius</div>
+    <div class="eleven">Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow
+        Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow </div>
+    <hr />
+</body>
+</html>

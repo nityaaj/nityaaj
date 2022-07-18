@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image hover</title>
+    <style>
+        .main {
+            position: relative;
+            width: 300px;
+        }
+
+
+        .imge{
+            display: block;
+            width: 300px;
+            height: 400px;
+            transition: 1s ease-in;
+        }
+        .center{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            opacity: 0;
+            transition: 1s;
+            background-color: rgba(149, 28, 28);
+        }
+        .main:hover .center{
+            opacity: 1;
+            
+        }
+        
+        .main:hover .imge{
+            transform: skew(90deg);
+
+        }
+        .text{
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        
+    </style>
+</head>
+
+
+
+<body>
+    <div class="main">
+        <img src="sarah-dorweiler-QeVmJxZOv3k-unsplash.jpg" alt="not found" class="imge">
+        <div class="center">
+            <div class="text">
+                arpit patel
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovermenu</title>
+    <style>
+        .inner{
+            display: none;
+        }
+        
+        .inr:hover{
+            
+            .inner{
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="main">
+        <li class="inr">
+            goggle
+            <ul class="inner">
+                <li>
+                    Gmail
+                    <ul class="inner">
+                        <li>sign up </li>
+                        <li>sign in
+                            <ul>
+                                <li>sign is as a member</li>
+                                <li>sign is as a new</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Facebook
+        </li>
+        <li>
+            Microsoft
+            <ul class="inner">
+                <li>
+                    bing
+                </li>
+                <li>
+                    linkidin
+                </li>
+            </ul>
+        </li>
+        <li>
+            bing
+        </li>
+        <li>
+            amazon
+            <ul class="inner">
+                <li>
+                    AWS
+                </li>
+                <li>
+                    e-commerce
+                </li>
+                <li>
+                    ai-ml
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+    <script type="text/javascript">
+        document.write("Hello");
+        alert("This is alert message");
+        console.log("This is console");
+        function PrintName(){
+        var name = prompt("Enter Name");
+        document.getElementById("PrintName").innerHTML=name;
+        }
+        function color(){
+            var n = prompt("Enter Color");
+            document.getElementById("c1").style.backgroundColor=n;
+        }
+    
+    </script>
+<body id="c1">
+    <button onclick="PrintName()">Click Me</button>
+    <button onclick="color()">Change Color</button>
+    <h1>Welcome &nbsp;<span id="PrintName"></span></h1>
+    <selection class="slider">
+        <div class="slider_img float-left">
+            <img src="natureimg.jpg" class="img1">
+            <img src="download.jpg" class="img1" 
+            
+            onclick="document.getElementById('img2').src = '../CSS_Practice/Img/flower.jpg';">
+            <img src="download (1).jpg" class="img1">
+        </div>
+        <div class="slider_img1">
+            <img src="download (1).jpg" id="img2">
+        </div>
+    </selection>
+    <div class="clear">
+    <button id="show" onclick="document.getElementById('details').style.fontSize='50px';">Style</button>
+    <button id="show" onclick="document.getElementById('details').innerHTML='This is Text';">Show</button>
+    <button id="hide" onclick="document.getElementById('details').innerHTML='';">Hide</button>
+    <h2 id="details">Hello Students!!!</h2>
+    </div>
+</body>
+</html>

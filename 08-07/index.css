@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Navigation Start */
+.nav{
+    height: 11vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.10);
+    background-color: #fff;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}   
+.nav li{
+    list-style: none;
+}
+.nav  a{
+    padding-left: 10px;
+    text-decoration: none;
+    padding-right: 2%;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.nav  a :hover{
+    color: #8D3131;
+}
+.nav_img{
+    margin-left: 62%;
+}
+/* Navigation End */
+
+/* Main Start */
+.main{
+    width: 100%;
+    height: 90vh;
+    background-image: url("background.png");
+    z-index: -1;
+    background-size: cover;
+}
+.text{
+    color: #fff;
+    padding: 80px 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.sec_h1{
+    color: #c44444;
+}
+.text a button{
+    margin-top: 5%;
+    width: 100px;
+    height: 50px;
+    background-color: #b14b08;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.text a button:hover{
+    background-color: #8D3131;
+}
+.text h1{
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+/* Main End */
+
+/* Banner Start */
+
+.banner{
+    display: flex;
+    height: 30vh;
+    margin: 40px;
+}
+
+ .banner .box{
+    width: 33%;
+    background-color: rgb(204, 65, 65);
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+    box-shadow: 5px  5px rgb(0, 0, 0,0.40);
+    border: 1px solid #8D3131;
+    transition: .3s ease-in;
+}
+.banner .box:hover{
+    background-color: #b14b08;
+}
+.box p{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5px;
+}
+.banner p span{
+    font-weight: 900;
+}
+
+/* Banner End */
+
+/* banner1 start */
+
+.banner1{
+    width: 100%;
+    height: 75vh;
+    background-image: url("back.jpg");
+    background-size: cover;
+    display: flex;
+    margin-bottom: 20px;
+}
+.b1{
+    width: 50%;
+    height: 30vh;
+    text-align:center;
+}
+.b{
+    width: 50%;
+    height: 20vh;
+    color: #fff;
+    display: block;
+    margin-top: 7%;
+    margin-left: 20%;
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+}
+.b span{
+    font-size: 20px;
+}
+.b p{
+    font-size: 15px;
+}
+
+/* banner1 End */
+
+/* footer start */
+.footer{
+    height: 100vh;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    margin: 10px;
+}
+.he{
+    height: 50px;
+    margin-left: 20px;
+    /* text-align: center; */
+}
+.he h1{
+    color: black;
+    font-size: 33px;
+    text-align: center;
+}
+.he span{
+    color: #8D3131;
+}
+
+.footer .line{
+    height: 18vh;
+    margin-top: 10px;
+    display: flex;
+}
+.line .boxes{
+    width: 20%;
+    height: 15vh;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.10);
+    border: 1px solid rgb(199, 199, 199);
+    transition: .3s ease-in;
+}
+.line .boxes:hover{
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+/* footer End */

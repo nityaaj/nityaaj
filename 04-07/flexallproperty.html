@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: antiquewhite;
+            height: 60px;
+        }
+        .container ul{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding: 15px 30px;
+            
+        }
+        .container ul li{
+            list-style-type: none;
+            background: black;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+        }
+       
+        .inner{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine; 
+
+        }
+        #a{
+            flex-grow: 1;
+            
+        }
+
+        #b{
+            flex-grow: 1;
+            background-color: black;
+        }
+        #c{
+            flex-grow: 3;
+            background-color: blue;
+        }
+        #d{
+            flex-grow: 1;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>Shop</li>
+            <li>Service</li>
+            <li>Blog</li>
+            <li>About us</li>
+            <li>Help ?</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="inner" id="a"></div>
+        <div class="inner" id="b"></div>
+        <div class="inner" id="c"></div>
+        <div class="inner" id="d"></div>
+       
+    </div>
+</body>
+</html>
